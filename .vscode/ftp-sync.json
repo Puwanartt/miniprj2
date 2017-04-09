@@ -8,7 +8,7 @@
     "protocol": "sftp",  
     "uploadOnSave": true,
     "passive": false,   
-    "debug": false,  
+    "debug": false,   
     "privateKeyPath": null,  
     "passphrase": null, 
     "ignore": [ 
