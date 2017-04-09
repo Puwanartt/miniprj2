@@ -21,17 +21,16 @@ if (!$result) die($conn->error);
   <div data-role="header"><br>
   <center><img src="icon1.png" width="100" heigh="100"></center>
     <h1>MY NOTE</h1>
-    <h6>miniproject2 | puwanart tagonog id 58160188</h6>
     <a href="NewNote.php" class="ui-btn ui-btn-right ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">Add</a>
   
               
 </header>
+
 </div>
-<br>
 <div id="pageone">
 <div data-role="main">
 <ul data-role="listview" date ="true" data-inset="true">
-
+<h6 align="center">miniproject2 | puwanart tagonog id 58160188</h6>
 <?php 
 $query = "SELECT * FROM note GROUP BY note_date ORDER BY note_date DESC"; 
 mysqli_query("SET NAMES utf8");
