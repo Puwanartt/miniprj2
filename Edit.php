@@ -48,7 +48,7 @@ $GETid = addslashes($_GET['note_id']);
         });
 
    
-    </script>
+    </script> 
 
    
 
